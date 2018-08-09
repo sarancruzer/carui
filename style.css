@@ -123,9 +123,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .card-div .card-body {
   color: red;
   font-weight: bolder;
-  background: #ccc;
+  background: #e2dddd;
+  box-shadow: 2px 3px 5px 1px rgb(222, 220, 220) !important;
 }
-
+.card-footer:last-child{
+  box-shadow: 2px 3px 5px 1px rgb(222, 220, 220) !important;
+  background: #fff;
+}
 .card-buttons button {
   border-radius: 50%;
   width: 30px;
@@ -180,7 +184,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
     text-transform: uppercase;
 }
 #inner-nav ul li .active {
-  color:rgb(255, 10, 10);  
+  color: rgb(230, 0, 0);
 }
 
 .custom-btn {
@@ -288,3 +292,46 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 /* footer code end */
 
+/*new css*/
+
+.header-icon-css {
+
+color:#e8428d;
+}
+#my-nav .nav-link{
+  text-align: center;
+}
+.card-css-sty .right-btn{
+background: none !important;
+border:2px solid #e8428d;
+}
+.card-css-green{
+  background: none;
+  color: #6e9f19;
+  border: 2px solid #6e9f19;
+}
+.toright-css{
+  background: #507d02;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.6), inset 0px 0px 7px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.6), inset 0px 0px 7px rgba(255,255,255,1);
+  -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.6), inset 0px 0px 7px rgb(218, 201, 201);
+}
+.card-css-sty #more{
+background: none;
+}
+.silder-header-css{
+  color:#527b05;
+}
+.service-header-css{
+  color: rgb(204, 8, 8);
+}
+.footer-copyright{
+  background: #1a1819;
+}
+.widgets.footer-widgets .widget-contact ul li span{
+  color:#fff;
+}
+.fotter-gmail-css{
+  color: #558104;
+}
